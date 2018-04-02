@@ -32,20 +32,27 @@
             $a = new Area("Col2");
             $a->display($c);
           ?>
-
     		</div>
+        <div class = 'col-md-4 ' >
+          <?php
+            $a = new Area("Col-3");
+            $a->display($c);
+          ?>
+        </div>
+
+        <!--
 				<div class = 'col-md-4 ' >
 					<div class='row '>
 						<div class='col-md-3'>
               <?php
-                $a = new Area("Col3-l1-img");
-                $a->display($c);
+              //  $a = new Area("Col3-l1-img");
+            //    $a->display($c);
               ?>
             </div>
 						<div class='col-md-9'>
               <?php
-                $a = new Area("Col3-l1-txt");
-                $a->display($c);
+            //    $a = new Area("Col3-l1-txt");
+            //    $a->display($c);
               ?>
 						</div>
 					</div>
@@ -53,14 +60,14 @@
 					<div class='row '>
 						<div class='col-md-3'>
               <?php
-                $a = new Area("Col3-l2-img");
-                $a->display($c);
+          //      $a = new Area("Col3-l2-img");
+            //    $a->display($c);
               ?>
 						</div>
 						<div class='col-md-9'>
               <?php
-                $a = new Area("Col3-l2-txt");
-                $a->display($c);
+            //    $a = new Area("Col3-l2-txt");
+          //      $a->display($c);
               ?>
 						</div>
 					</div>
@@ -68,18 +75,22 @@
 					<div class='row ' >
 						<div class='col-md-3'>
               <?php
-                $a = new Area("Col3-l3-img");
-                $a->display($c);
+          //      $a = new Area("Col3-l3-img");
+          //      $a->display($c);
               ?>
 						</div>
 						<div class='col-md-9'>
               <?php
-                $a = new Area("Col3-l3-txt");
-                $a->display($c);
+          //      $a = new Area("Col3-l3-txt");
+          //      $a->display($c);
               ?>
 						</div>
 					</div>
 				</div>
+      -->
+
+
+
 			</div>
 		</div>
 
