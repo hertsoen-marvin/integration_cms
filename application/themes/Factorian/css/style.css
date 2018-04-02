@@ -4,6 +4,22 @@ body, html {
 	/*margin-top:25px;*/
 }
 
+/********************************************** Le titre  ***************************************************/
+
+.m_bloc_header a{
+	text-decoration: none;
+	color: #494949;
+
+
+}
+.m_titre{
+	text-align: center;
+	border:3px solid #494949;
+	padding:10px;
+	margin-bottom:15px;
+	height:51px;
+}
+
 /********************************************** Le navbar  ***************************************************/
 
 .row:first{
@@ -45,13 +61,6 @@ nav li a:hover {
 		color:black;
 }
 
-.m_titre{
-	text-align: center;
-	border:3px solid black;
-	padding:10px;
-	margin-bottom:15px;
-	height:51px;
-}
 
 
 

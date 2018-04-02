@@ -12,11 +12,15 @@
 
 	<!------------------------------------------------------ Barre de navigation / HEADER --------------------------------------------->
 
+	<div class='m_bloc_header'>
 		<div class='container'>
 			<div class = 'row'>
-				<div class = 'col-md-2'>
-					<h3 class='m_titre'> Factorian</h3>
-				</div>
+				<a href = "http://localhost/concrete5-8.3.1/index.php/">
+					<div class = 'col-md-2'>
+							<h3 class='m_titre'> Factorian</h3>
+					</div>
+				</a>
+
 				<div class = 'col-md-10 m_nav_bar pull-right'>
 					<?php
 						$a = new Area("autonav");
@@ -25,3 +29,4 @@
 				</div>
 			</div>
 		</div>
+	</div>
