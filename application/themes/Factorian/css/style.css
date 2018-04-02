@@ -82,8 +82,8 @@ nav li a:hover {
 .m_bloc_liste1{
 	margin-bottom:60px;
 }
-.m_bloc_liste1 .ccm-block-page-list-page-entry-thumbnail img{
-	width : 100px;
+.m_bloc_liste1 div.ccm-block-page-list-page-entry-horizontal div.ccm-block-page-list-page-entry-thumbnail img{
+	width : 80px;
 }
 /********************************************** le CTA ***************************************************/
 
